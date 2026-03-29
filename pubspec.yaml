@@ -1,0 +1,50 @@
+name: news_ai_app
+description: Simple AI-powered news app with Gemini.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Mocking
+  mockito: ^5.4.4
+  mocktail: ^1.0.1
+  
+  # Integration testing
+  integration_test:
+    sdk: flutter
+  
+  # Code generation for mocks
+  build_runner: ^2.4.7
+  
+  # ✅ API Calls (using dio instead of http)
+  dio: ^5.4.0
+  http: ^1.1.0
+  # JSON Serialization
+  json_annotation: ^4.8.1
+  
+  # UI & Animations
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.3.0
+  cached_network_image: ^3.3.0
+  
+  # Local Storage
+  shared_preferences: ^2.2.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # To check internet connection
+  connectivity_plus: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
