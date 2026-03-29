@@ -43,7 +43,8 @@ Ensure you have the following installed:
 
 2. Clone the Repository
 
-git clone https://github.com/Sirilak2004/News_Offline_First_Supported.git
+git clone https://github.com/Sirilak2004/News_App_With_Offline_First_Supported
+
 cd news_app
 
 3. Install Dependencies
